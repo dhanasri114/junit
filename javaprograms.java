@@ -1,12 +1,13 @@
-public class Addition
+public class javaprograms
 {
+    void add(int a, int b)
+        {
+            int c=a+b;
+            System.out.println("Additon of two number is :"+c);
+        }
     public static void main(String args[])
     {
-        void add(int a, int b)
-        {
-            int c=a+b
-            System.out,println("Additon of two number is :" c)
-        }
-        add(20,10);
+        javaprograms ad=new javaprograms();
+        ad.add(20,10);
     }
 }
